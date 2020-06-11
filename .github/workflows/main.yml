@@ -41,4 +41,4 @@ jobs:
       
       
     - name: deploying on surge
-      run: surge ./build http://assignment4button.surge.sh// --token ${{ secrets.SURGE_TOKEN}}
+      run: surge ./build http://assignment4button.surge.sh/ --token ${{ secrets.SURGE_TOKEN}}
