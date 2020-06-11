@@ -3,7 +3,7 @@ import './App.css'
 function Message(props) {
     
     let colorStyle = {
-        color: props.textColor == "white" ? "white" : "silver"
+        color: props.textColor === "white" ? "white" : "silver"
     }
     return(
         <div>
