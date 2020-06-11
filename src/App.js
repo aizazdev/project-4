@@ -15,7 +15,7 @@ function App() {
     <div style={backAndColor} className="box">
       <Message backgroundColor={bColor ? "brown" : "black"} textColor={tColor ? "white" : "silver"}/>
 
-      <button onClick={() => bChange(!bColor) }>Change Background</button>
+      <button onClick={() => bChange(!bColor) }>Changed Background</button>
       <button onClick={() => tChange(!tColor) }>Change Text</button>
     </div>
   );
