@@ -7,7 +7,7 @@ function Message(props) {
     }
     return(
         <div>
-            <h3 style={colorStyle}>background color has change to {props.backgroundColor}</h3>
+            <h3 style={colorStyle}>background color has change too {props.backgroundColor}</h3>
             <h4 style={colorStyle}>Text color has been change to {props.textColor}</h4>
         </div>
     )
